@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="statusBarBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppSplashTheme" parent="Theme.SplashScreen">
+
+        <item name="android:windowBackground">@drawable/base_bg2</item>
+        <item name="windowSplashScreenBackground">@color/colorAccent</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+
+        <item name="windowSplashScreenAnimationDuration">500</item>
+
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+        <!--注意Android 12 以下不支持设置-->
+        <item name="android:windowSplashScreenBrandingImage">@drawable/logo</item>
+    </style>
+
+</resources>
