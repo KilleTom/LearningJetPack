@@ -1,4 +1,4 @@
-package com.killetom.jetpack.learningjetpack.ui
+package com.killetom.jetpack.learningjetpack.page.splash
 
 import android.content.Intent
 import android.graphics.Color
@@ -14,7 +14,6 @@ import android.view.animation.Animation
 import android.view.animation.AnimationSet
 import android.view.animation.RotateAnimation
 import android.view.animation.ScaleAnimation
-import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
